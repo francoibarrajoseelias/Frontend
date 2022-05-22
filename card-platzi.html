@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card de Platzi</title>
+
+    <style>
+        section{
+            width: 100%;
+            display: flex;
+            justify-content: center ;
+        }
+        .card{
+            background-color: papayawhip;
+            width: 300px;
+            height: 300px;
+            border-radius: 20px;
+            overflow: hidden; /* Con esto indicamos q todo lo q se salga se va a esconder */
+        }
+        .card img{
+            width: 100%;
+        }
+        .card p{
+            text-align: center;
+        }
+        .card :nth-child(3){
+            color: rgb(90, 154, 133);
+        }
+    </style>
+
+</head>
+<body>
+    <section>
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1598929440520-dc9f18462281?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170" alt="Imagen de computadora">
+            <p>Cat: Mimi</p>
+            <p>Raza: Tiger</p>
+        </div>
+    </section>
+</body>
+</html>
